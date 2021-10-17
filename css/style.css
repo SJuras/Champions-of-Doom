@@ -1054,6 +1054,43 @@ p.mail-address {
 .link-container {
   display: flex;
 }
+
+.social-container {
+  width: 100%;
+  background-color: #13171a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.social-container h4 {
+  font-size: 30px;
+  color: #79ffca;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.social-container .social-links ul li {
+  display: inline-block;
+  margin: 24px;
+}
+
+.social-container .social-links ul li a i {
+  font-size: 2em;
+  color: #d1d1d1;
+  transition: 0.5s;
+}
+
+.social-container .social-links ul li:hover a i {
+  transform: translateY(-6px);
+  color: #79ffca;
+}
+
+.social-container .social-links ul li a p {
+  display: none;
+}
 /* pages END */
 
 /* footer */
@@ -1312,6 +1349,32 @@ footer .footer-content .footer-box p i {
   .commercial-box-3 {
     width: 100%;
     margin-bottom: 24px;
+  }
+
+  .social-container .social-links {
+    width: 100%;
+  }
+
+  .social-container .social-links ul li {
+    width: 100%;
+  }
+
+  .social-container .social-links ul li a {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-container .social-links ul li a i {
+    margin-right: 24px;
+  }
+
+  .social-container .social-links ul li a i,
+  .social-container .social-links ul li a p {
+    display: block;
+  }
+
+  .social-container .social-links ul li a p {
+    color: #d1d1d1;
   }
 
   footer .footer-content {
