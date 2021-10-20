@@ -337,12 +337,12 @@ p {
   justify-content: center;
   align-items: center;
   z-index: 101;
-  transition: 0.8s;
-  box-shadow: 0 5px 20px rgba(121, 255, 202, 0.2);
+  transition: 0.3s;
 }
 
 .sidemenu.active {
   right: 0;
+  box-shadow: 0 5px 20px rgba(121, 255, 202, 0.2);
 }
 
 .sidemenu ul li {
