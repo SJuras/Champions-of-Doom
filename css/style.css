@@ -1102,6 +1102,7 @@ p.mail-address {
   padding: 24px;
   background-color: #13171a;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -1109,7 +1110,7 @@ p.mail-address {
   padding: 12px;
   position: relative;
   max-width: 300px;
-  margin: 12px;
+  margin: 24px;
   transition: 0.5s;
 }
 
@@ -1415,6 +1416,10 @@ footer .footer-content .footer-box p i {
 
   .social-container .social-links ul li a p {
     color: #d1d1d1;
+  }
+
+  .gallery-box {
+    margin: 12px;
   }
 
   footer .footer-content {
