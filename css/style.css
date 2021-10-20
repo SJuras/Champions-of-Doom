@@ -1096,6 +1096,34 @@ p.mail-address {
 }
 /* pages END */
 
+/* Gallery */
+.gallery-container {
+  width: 100%;
+  padding: 24px;
+  background-color: #13171a;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-box {
+  padding: 12px;
+  position: relative;
+  max-width: 300px;
+  margin: 12px;
+  transition: 0.5s;
+}
+
+.gallery-box a img {
+  width: 100%;
+  height: auto;
+  transition: 0.5s;
+}
+
+.gallery-box:hover {
+  transform: scale(1.1);
+}
+/* Gallery END */
+
 /* footer */
 footer {
   background: #141e20;
