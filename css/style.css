@@ -1322,6 +1322,10 @@ footer .footer-content .footer-box p i {
     flex-direction: column;
   }
 
+  .hero-main-intro-upper .hero-main-intro-upper-left h4 {
+    display: none;
+  }
+
   .section-box {
     width: 100%;
     margin-bottom: 24px;
@@ -1431,11 +1435,11 @@ footer .footer-content .footer-box p i {
   }
 
   .hero-main-intro-upper .hero-main-intro-upper-left h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .hero-main-intro-upper .hero-main-intro-upper-left h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .hero-main-intro-upper .hero-main-intro-upper-left h4 {
@@ -1443,7 +1447,7 @@ footer .footer-content .footer-box p i {
   }
 
   .hero-main-intro-upper-right-img {
-    width: 200px;
+    width: 160px;
     height: auto;
     padding: 12px;
   }
