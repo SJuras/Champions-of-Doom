@@ -1450,6 +1450,10 @@ footer .footer-content .footer-box p i {
   .sidemenu ul li a {
     font-size: 1.5em;
   }
+
+  .gallery-container {
+    padding: 12px;
+  }
 }
 
 @media (max-width: 575.98px) {
